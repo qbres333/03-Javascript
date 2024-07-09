@@ -17,4 +17,5 @@ else {
     console.log(expression1, '\u274C', expression2, '\u274C')
 }
 
+// \u2705 is check mark
 // \u274C is cross mark
