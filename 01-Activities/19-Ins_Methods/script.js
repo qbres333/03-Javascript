@@ -36,7 +36,8 @@ console.log(myNewString);
 // The original string is unchanged
 console.log(myString);
 
-// parseInt is a built in method that will convert a string into an integer:
+// parseInt is a built in method that will convert a string into an integer
+// (parseInt is globally available):
 const convertedNum = parseInt(numString);
 // logs number
 console.log(typeof convertedNum);
