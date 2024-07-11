@@ -18,7 +18,7 @@ isEqual(10, 10);
 // TODO: Call the isEqual function so that it logs "They are equal in value"
 isEqual("true", true);
 // TODO: Rewrite isEqual as a function expression called 'isEqualTakeTwo`
-function isEuqalTakeTwo(a, b) {
+const isEqualTakeTwo = function(a, b) {
   if(a !== b || a != b) {
     console.log('They are not equal');
   }
@@ -28,4 +28,4 @@ function isEuqalTakeTwo(a, b) {
   return;
 }
 // TODO: Call the isEqualTakeTwo function so that it logs "They are not equal"
-isEuqalTakeTwo(4,4);
+isEqualTakeTwo(4,4);
