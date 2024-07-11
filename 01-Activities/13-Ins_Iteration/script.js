@@ -3,6 +3,9 @@ for (let i = 0; i < 5; i++) {
     // This is the block of code that will run each time
     console.log(`This is the current value of i: ${i}.`);
 }
+// this syntax ${i} is used to inject the variable into the string
+//--------YOU MUST USE BACKTICKS FOR THIS TO WORK----------
+
 
 // `for` loops are often used to iterate over arrays
 const zooAnimals = ["Bears", "Giraffes", "Penguins", "Meerkats"];
