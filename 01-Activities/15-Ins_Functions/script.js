@@ -26,7 +26,8 @@ declareHello();
 function declareHelloAgain(x,y,z) {
   console.log(`Hello, the values of my parameters are ${x}, ${y}, and ${z}.`);
   console.log("-----------------------------------");
-  return;
+  return; //allows us to leave the function, stops the function's executions, 
+  //take a value from the function, and/or return to the rest of the code
 }
 
 // Function arguments give parameters their values
