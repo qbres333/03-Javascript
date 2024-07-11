@@ -22,7 +22,7 @@ function sayLions() {
 }
 
 function sayTigers() {
-  const animal = "Tigers";
+  const animal = "Tigers"; //added here
   console.log(`and ${animal} and `);
   return;
 }
