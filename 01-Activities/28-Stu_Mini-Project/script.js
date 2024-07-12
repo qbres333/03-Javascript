@@ -23,6 +23,7 @@ if(userValid) {    //returns true or false
 // how do we know who wins?
 
 } else {
+    alert(`You made a boo boo. Please try again.`)
     location.reload();
 }
 
