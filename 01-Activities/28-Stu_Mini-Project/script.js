@@ -31,10 +31,20 @@ function startGame() {
         else if( (userChoice.toLowerCase == "r" && computer == "s") || (userChoice.toLowerCase == "p" && computer == "r") || (userChoice.toLowerCase == "s" && computer == "p")) {
             alert(`You beat the computer!`);
             confirm(`Would you like to play again?`);
+            if('OK') {
+                userChoice;
+            } else {
+                alert(`Thank you for playing 😉`);
+            }
         }
         else {
             alert(`The computer wins!`);
             confirm(`Would you like to play again?`);
+            if('OK') {
+                userChoice;
+            } else {
+                alert(`Thank you for playing 😉`);
+            }
         }
             
     } else {
@@ -42,7 +52,6 @@ function startGame() {
         location.reload();
     }
 
-return;
 }
 
 startGame();
