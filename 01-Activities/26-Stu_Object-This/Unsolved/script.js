@@ -3,7 +3,11 @@
 console.log(this);
 
 // TODO: What does 'this' refer to?
-//this refers to the function helloThis()
+/* This refers to the object window.In regular functions, this usually refers 
+to the global object. However, in strict mode, it's undefined.
+Within event handlers, this refers to the ELEMENT that triggered the event.
+Use this carefully, especially in asynchronous code.
+Consider using arrow functions in certain cases to avoid this-related issues.*/
 function helloThis() {
    console.log(`Inside this function, this is ${this}`);
 }

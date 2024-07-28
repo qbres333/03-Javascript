@@ -51,6 +51,12 @@ const playGame = function() {
       const index = Math.floor(Math.random() * options.length);
       const computerChoice = options[index];
 
+      /* Math.random(): Generates a random number between 0 (inclusive) and 1 (exclusive).
+      array.length: Gets the length of the array.
+      Multiplication: Multiply the random number by the array's length to get a random number within the array's index range.
+      Math.floor(): Rounds down the result to the nearest integer, giving us a valid array index.*/
+
+
       window.alert(`The computer chose ${computerChoice}`);
 
       // If choices are the same, it's a tie
@@ -88,6 +94,11 @@ const playGame = function() {
     Rock: ${stats.count.rock}
     Paper: ${stats.count.paper}
     Scissors: ${stats.count.scissors}`);
+
+    /* alert()
+Purpose: Displays a simple message to the user.
+Return value: Always undefined.
+User interaction: The user can only click "OK" to dismiss the alert.*/
 };
 
 // Run the game
