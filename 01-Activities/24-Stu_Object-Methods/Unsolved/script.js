@@ -1,4 +1,6 @@
-const chosenPet = "Spot";
+
+// change chosenPet to see different messages
+const chosenPet = "Ingrid";
 
 const shelter = {
   dogs: ["Mackie", "Bernice", "Cookie Monster", "Spot"],

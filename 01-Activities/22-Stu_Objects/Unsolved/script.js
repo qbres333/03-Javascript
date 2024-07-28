@@ -1,14 +1,14 @@
 // WRITE YOUR CODE BELOW
 const customerDrink =  {
-    drinkName: "milk",
-    numSugars: 3,
-    orderReady: true
+    drinkName: "black tea",
+    numSugars: 13,
+    orderReady: false
 
 }
 
 console.log(customerDrink);
 
-if(customerDrink.orderReady = true) {
+if(customerDrink.orderReady == true) {
     console.log(`Ready for pick-up`)
 }
 else {

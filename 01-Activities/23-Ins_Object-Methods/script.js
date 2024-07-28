@@ -20,8 +20,8 @@ const planet = {
 // Logs "Mars" using dot notation
 console.log(planet.neighboringPlanets[0]);
 
-// Logs "Mars" using bracket notation
-console.log(planet["neighboringPlanets"][0]);
+// Logs "Venus" using bracket notation
+console.log(planet["neighboringPlanets"][1]);
 
 // To call a method, use the name of the object and the key. Don't forget the ()!
 planet.tellFunFact();
