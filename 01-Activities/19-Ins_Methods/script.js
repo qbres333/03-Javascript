@@ -18,7 +18,7 @@ arithmeticOperators.push("%");
 // Logs array with element "%" added to end
 console.log(arithmeticOperators);
 
-// Returns selected elements as a new array.
+// Returns selected elements as a new array. Second value is not inclusive, so first 2 elements are returned (indexes 0 and 1).
 const logicalOperatorsSliced = logicalOperators.slice(0,2);
 
 // Logs new array

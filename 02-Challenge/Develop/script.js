@@ -4,19 +4,18 @@ const addEmployeesBtn = document.querySelector('#add-employees-btn');
 // Collect employee data
 const collectEmployees = function() {
   // TODO: Get user input to create and return an array of employee objects
-  // create an empty employee object
-  
-  const empArray = [];
+  // create an empty object for employees
   const employeeList = {};
+
+  // create an empty employee array  
+  const empArray = [];
+  
   const firstName = window.prompt("Enter the employee's first name:");
   const lastName = window.prompt("Enter the employee's last name:");
   const salary = window.prompt("Enter the employee's salary (no commas):");
 
   //click add employee button (event listener)
-  addEmployeesBtn.addEventListener('click', function() {
-    
-  })
-
+  addEmployeesBtn.addEventListener('click')
 
   // if(addEmployeesBtn) {
     

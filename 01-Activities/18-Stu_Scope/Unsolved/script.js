@@ -49,7 +49,7 @@ function singAlong() {
   const singASong = function () {
     console.log(`${sing} a Song.`);
   };
-  singASong();
+  singASong(); //is this a return for the singAlong() main function?
 }
 
 singAlong();

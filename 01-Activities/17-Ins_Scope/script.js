@@ -43,6 +43,7 @@ const sayWhatAgain = function () {
   console.log(shadow);   
 };
 
+console.log(sayGoodbyeAgain);
 sayGoodbye();
 sayWhat();
 sayWhatAgain();

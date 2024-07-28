@@ -10,13 +10,14 @@ function isEqual(x, y) {
   return;
 }
 
-// Logs "They are equal in type and value"
-isEqual(10, 10);
+// Logs "They are equal in value"; and will show that line number
+isEqual(5, '5');
 
 // Refer to sample functions as needed!
 
 // TODO: Call the isEqual function so that it logs "They are equal in value"
-isEqual("true", true);
+isEqual(8, '8');
+
 // TODO: Rewrite isEqual as a function expression called 'isEqualTakeTwo`
 const isEqualTakeTwo = function(a, b) {
   if(a !== b || a != b) {
@@ -28,4 +29,4 @@ const isEqualTakeTwo = function(a, b) {
   return;
 }
 // TODO: Call the isEqualTakeTwo function so that it logs "They are not equal"
-isEqualTakeTwo(4,4);
+isEqualTakeTwo(4,'4');
